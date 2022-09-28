@@ -1,8 +1,7 @@
 import * as React from 'react';
 
 import {
-  NavBar,
-  HeaderWrapper,
+  // HeaderWrapper,
   NavLinkStyled,
   MainContainer,
   Navbar,
