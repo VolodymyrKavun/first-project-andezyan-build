@@ -1,16 +1,24 @@
-export const App = () => {
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Buttons from './Buttons';
+import Header from './Header';
+import SignIn from '../page/SignIn/SignIn';
+import SignUp from '../page/SingUp/SingUp';
+import StartPage from 'page/StartPage';
+
+const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      <Header />
+
+      <Routes>
+        <Route path="/" element={<Buttons />} />
+        <Route path="/home" element={<StartPage />} />
+        <Route path="/login" element={<SignIn />} />
+        <Route path="/signUp" element={<SignUp />} />
+      </Routes>
+    </>
   );
 };
+
+export default App;
