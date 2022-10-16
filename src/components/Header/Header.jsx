@@ -1,25 +1,27 @@
 import * as React from 'react';
 
+import ContactsInfo from 'components/ContactsInfo';
+
 import {
-  // HeaderWrapper,
+  HeaderWrapper,
   NavLinkStyled,
-  MainContainer,
-  Navbar,
-  NavContainer,
-  NavMenu,
-  NavItem,
+  // MainContainer,
+  NavBar,
+  // NavContainer,
+  // NavMenu,
+  // NavItem,
 } from './Header.styled';
 
 const Header = () => {
   return (
     <>
-      <MainContainer>
+      {/* <MainContainer>
         <Navbar>
           <NavContainer>
             <NavMenu>
               <NavItem>
-                <NavLinkStyled to="/">Gallery</NavLinkStyled>
                 <NavLinkStyled to="/home">Головна</NavLinkStyled>
+                <NavLinkStyled to="/">Gallery</NavLinkStyled>
 
                 <NavLinkStyled to="/login">Login</NavLinkStyled>
                 <NavLinkStyled to="/signUp">Registration</NavLinkStyled>
@@ -27,15 +29,17 @@ const Header = () => {
             </NavMenu>
           </NavContainer>
         </Navbar>
-      </MainContainer>
+      </MainContainer> */}
 
-      {/* <NavBar>
+      <NavBar>
         <HeaderWrapper>
-          <NavLinkStyled to="/"> Home Page</NavLinkStyled>
+          <NavLinkStyled to="/">Головна</NavLinkStyled>
+          <NavLinkStyled to="/home"> Home Page</NavLinkStyled>
           <NavLinkStyled to="/login">Login</NavLinkStyled>
           <NavLinkStyled to="/signUp">Registration</NavLinkStyled>
+          <ContactsInfo />
         </HeaderWrapper>
-      </NavBar> */}
+      </NavBar>
     </>
   );
 };
