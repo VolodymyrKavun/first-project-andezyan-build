@@ -2,9 +2,7 @@ import React from 'react';
 import { BlueBg, WhiteBg, Content } from './NewStartPage.styled';
 
 import { ImageWraper, Img } from 'components/StartPage/StartPage.styled';
-// import ContactsInfo from 'components/HeaderContactsInfo';
 import InfoAboutCompany from 'components/InfoAboutCompany';
-// import { ContactLink } from 'components/HeaderContactsInfo/HeaderContactsInfo.styled';
 
 const NewStartPage = () => {
   return (
@@ -24,7 +22,6 @@ const NewStartPage = () => {
               src="https://stroy-angar.com.ua/images/logo2.png"
               alt="АО АНДЕЗЯН"
             />
-            {/* <ContactsInfo /> */}
             <div
               style={{
                 display: 'flex',

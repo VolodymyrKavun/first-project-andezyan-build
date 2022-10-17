@@ -78,6 +78,9 @@ import { NavLink } from 'react-router-dom';
 // height: 50px;
 
 export const NavBar = styled.header`
+  @media (max-width: 768px) {
+    visibility: hidden;
+  }
   font-size: 16px;
   position: fixed;
   width: 100%;

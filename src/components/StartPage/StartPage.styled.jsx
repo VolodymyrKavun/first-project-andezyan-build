@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from '@emotion/styled/macro';
 
 export const PageContainer = styled.div`
   background-image: url('	https://stroy-angar.com.ua/images/1__highfon.jpg');
@@ -16,7 +16,11 @@ export const ImageWraper = styled.div`
 `;
 
 export const Img = styled.img`
-  filter: drop-shadow(8px 8px 4px #faea10);
+  @media screen and (max-width: 768px) {
+    filter: drop-shadow(8px 8px 4px #faea10);
+  }
+  /* background-color: #1f5156; */
+  /* filter: drop-shadow(8px 8px 4px #faea10); */
   height: 200px;
   width: 200px;
   margin: 0;

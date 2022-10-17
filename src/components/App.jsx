@@ -4,6 +4,7 @@ import { lazy, Suspense } from 'react';
 import Loader from 'utils/Loader';
 // import Buttons from './Buttons';
 import Header from './Header';
+import BurgerMenu from './BurgerMenu';
 // import SignIn from '../page/SignIn/SignIn';
 // import SignUp from '../page/SingUp/SingUp';
 // import StartPage from 'page/StartPage';
@@ -26,6 +27,7 @@ const App = () => {
           <Route path="/home" element={<GalleryProjects />} />
           <Route path="/login" element={<SignIn />} />
           <Route path="/signUp" element={<SignUp />} />
+          <Route path="//burger" element={<BurgerMenu />} />
         </Routes>
       </Suspense>
     </>

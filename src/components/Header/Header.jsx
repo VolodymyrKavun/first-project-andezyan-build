@@ -11,6 +11,7 @@ import {
   // NavMenu,
   // NavItem,
 } from './Header.styled';
+import BurgerMenu from 'components/BurgerMenu';
 
 const Header = () => {
   return (
@@ -37,9 +38,11 @@ const Header = () => {
           <NavLinkStyled to="/home">Gallery</NavLinkStyled>
           <NavLinkStyled to="/login">Login</NavLinkStyled>
           <NavLinkStyled to="/signUp">Registration</NavLinkStyled>
+          <NavLinkStyled to="/burger">Burger</NavLinkStyled>
           <ContactsInfo />
         </HeaderWrapper>
       </NavBar>
+      <BurgerMenu />
     </>
   );
 };
