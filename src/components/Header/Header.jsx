@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import ContactsInfo from 'components/ContactsInfo';
+import ContactsInfo from 'components/HeaderContactsInfo';
 
 import {
   HeaderWrapper,
@@ -34,7 +34,7 @@ const Header = () => {
       <NavBar>
         <HeaderWrapper>
           <NavLinkStyled to="/">Головна</NavLinkStyled>
-          <NavLinkStyled to="/home"> Home Page</NavLinkStyled>
+          <NavLinkStyled to="/home">Gallery</NavLinkStyled>
           <NavLinkStyled to="/login">Login</NavLinkStyled>
           <NavLinkStyled to="/signUp">Registration</NavLinkStyled>
           <ContactsInfo />

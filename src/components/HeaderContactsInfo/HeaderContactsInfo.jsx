@@ -1,7 +1,7 @@
 import React from 'react';
-import { ContactLink } from './ContactsInfo.styled';
+import { ContactLink } from './HeaderContactsInfo.styled';
 
-const ContactsInfo = () => {
+const HeaderContactsInfo = () => {
   return (
     <>
       <div>
@@ -16,4 +16,4 @@ const ContactsInfo = () => {
   );
 };
 
-export default ContactsInfo;
+export default HeaderContactsInfo;
