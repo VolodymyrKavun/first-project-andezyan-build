@@ -6,7 +6,7 @@ import Header from './Header';
 
 const Home = lazy(() => import('../page/Home'));
 const GalleryProjects = lazy(() => import('./GalleryProjects'));
-const Practic = lazy(() => import('../page/Practic'));
+// const Practic = lazy(() => import('../page/Practic'));
 const Contacts = lazy(() => import('../page/Contacts'));
 
 const App = () => {

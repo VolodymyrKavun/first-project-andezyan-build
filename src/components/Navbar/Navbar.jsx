@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 import { navData } from '../../data/navigation.data';
 import Image from 'components/Image';
-import Socials from 'components/Socials/Socials';
+// import Socials from 'components/Socials/Socials';
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);

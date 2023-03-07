@@ -1,9 +1,9 @@
 import React from 'react';
 
-import InfoAboutCompany from 'components/InfoAboutCompany';
+// import InfoAboutCompany from 'components/InfoAboutCompany';
 
 import styles from './StartPage.module.scss';
-import Image from 'components/Image';
+// import Image from 'components/Image';
 
 const StartPage = () => {
   return (
