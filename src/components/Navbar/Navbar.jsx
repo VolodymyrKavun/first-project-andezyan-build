@@ -34,6 +34,7 @@ const Navbar = () => {
               <li key={el.title}>
                 <NavLink
                   to={el.path}
+                  onClick={() => setNav(!nav)}
                   className={({ isActive }) =>
                     isActive ? css.activeNav : css.navLinkNav
                   }
