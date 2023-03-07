@@ -1,5 +1,5 @@
 import { BsTelephone } from 'react-icons/bs';
-import { FiGithub, FiMail } from 'react-icons/fi';
+import { FiMail } from 'react-icons/fi';
 import { SlSocialLinkedin } from 'react-icons/sl';
 import { TbBrandTelegram } from 'react-icons/tb';
 
