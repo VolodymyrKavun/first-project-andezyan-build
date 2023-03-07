@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-project-andezyan-build/static/css/main.9c523972.css",
-    "main.js": "/first-project-andezyan-build/static/js/main.f72144b0.js",
+    "main.js": "/first-project-andezyan-build/static/js/main.b07b107b.js",
     "static/css/626.56cbf427.chunk.css": "/first-project-andezyan-build/static/css/626.56cbf427.chunk.css",
     "static/js/626.72f777a1.chunk.js": "/first-project-andezyan-build/static/js/626.72f777a1.chunk.js",
     "static/js/223.decba065.chunk.js": "/first-project-andezyan-build/static/js/223.decba065.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/logo2.png": "/first-project-andezyan-build/static/media/logo2.7749bb15377948c897f0.png",
     "index.html": "/first-project-andezyan-build/index.html",
     "main.9c523972.css.map": "/first-project-andezyan-build/static/css/main.9c523972.css.map",
-    "main.f72144b0.js.map": "/first-project-andezyan-build/static/js/main.f72144b0.js.map",
+    "main.b07b107b.js.map": "/first-project-andezyan-build/static/js/main.b07b107b.js.map",
     "626.56cbf427.chunk.css.map": "/first-project-andezyan-build/static/css/626.56cbf427.chunk.css.map",
     "626.72f777a1.chunk.js.map": "/first-project-andezyan-build/static/js/626.72f777a1.chunk.js.map",
     "223.decba065.chunk.js.map": "/first-project-andezyan-build/static/js/223.decba065.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.9c523972.css",
-    "static/js/main.f72144b0.js"
+    "static/js/main.b07b107b.js"
   ]
 }
