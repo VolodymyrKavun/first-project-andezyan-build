@@ -5,7 +5,7 @@ export const BlueBg = styled.div`
   background-image: url('https://stroy-angar.com.ua/images/odessa20/5.jpg');
   background-size: cover;
 
-  background-color: #58aff6;
+  /* background-color: #58aff6; */
   top: 0;
   height: 100%;
   width: 100vw;
@@ -25,6 +25,12 @@ export const WhiteBg = styled.div`
   z-index: -1;
 
   box-shadow: -2px -5px 5px 0px rgba(0, 0, 0, 0.3);
+  @media screen and (max-width: 375px) {
+    height: 176vh;
+  }
+  @media screen and (min-width: 425px) {
+    height: 155vh;
+  }
 `;
 
 export const Content = styled.div`

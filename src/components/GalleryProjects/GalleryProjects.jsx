@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imagesGalery from 'data/imagesGalery/imagesGalery';
+import imagesGalery from 'data/imagesGalery';
 
 import {
   ContainerList,
@@ -21,8 +21,11 @@ const GalleryProjects = () => {
         <MovieListUl>
           {imagesGalery.map(el => {
             return (
-              <MovieCardItem key={el.id}>
-                <LinkToProject to={`/data/${el.id}`} state={{ from: location }}>
+              <MovieCardItem key={el.title}>
+                <LinkToProject
+                  to={`/data/${el.title}`}
+                  state={{ from: location }}
+                >
                   <MovieImage src={el.url} alt={el.title} />
                   <MovieTitle>{el.title}</MovieTitle>
                 </LinkToProject>

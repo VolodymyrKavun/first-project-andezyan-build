@@ -1,0 +1,107 @@
+@import-normalize;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto:wght@400;500;600;700&family=Roboto:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --bg__color: #fdf7f2;
+  --accent__color: #fbff00;
+  --dark-color: #000000;
+  --second__color: rgb(244 255 1 / 84%);
+  --backdrop__color: rgba(17, 17, 17, 0.6);
+}
+
+html[data-theme='light'] {
+  background-color: var(--bg__color);
+  --header__color: #000000;
+  --form__color: #ffffff;
+  --text__color: #111111;
+  --color__activelight: transparent;
+  --card__color: #ffffff;
+  --card__shadow: 7px 4px 14px rgba(0, 0, 0, 0.11);
+  --transform__card: none;
+  --burger__color: #fdf7f2;
+  --card__shadowpets: 7px 4px 14px rgba(49, 21, 4, 0.07);
+}
+
+html[data-theme='dark'] {
+  --header__color: #ffffff;
+  --form__color: #0a0907d0;
+  --text__color: #ffffff;
+  --color__activedark: rgb(233, 106, 27);
+  --card__color: rgb(247, 236, 214);
+  --card__shadow: 2px 4px 8px 1px rgb(105, 104, 104, 0.5),
+    2px 4px 8px 3px rgb(233, 106, 27, 0.6);
+  --transform__card: scale(1.015);
+  --burger__color: rgb(206, 197, 189);
+  --card__shadowpets: 2px 4px 8px 1px rgb(105, 104, 104, 0.5),
+    2px 4px 8px 3px rgb(255, 107, 8, 0.6);
+
+  background-image: linear-gradient(
+    to right,
+    #5c4d3d,
+    #513d37,
+    #423032,
+    #2f242b,
+    #1d1a21,
+    #1d1a21,
+    #1d1a21,
+    #1d1a21,
+    #2f242b,
+    #423032,
+    #513d37,
+    #5c4d3d
+  );
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background-color: #fdf7f2;
+  // background-color: var(--bg__color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(transparent, #b1c9d2c7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #b1c9d2c7, #916e90);
+  border-radius: 6px;
+}

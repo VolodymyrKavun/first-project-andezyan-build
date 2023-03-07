@@ -1,0 +1,41 @@
+.wrpaperButtonTop {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  transition-duration: 500ms;
+  z-index: 5;
+
+  &:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+  }
+}
+
+.visibleButtonTop {
+  opacity: 100;
+  display: inline-flex;
+  align-items: center;
+  padding: 4px;
+  background-color: transparent;
+  color: var(--accent__color);
+  border: none;
+  background-color: var(--backdrop__color);
+  border-radius: 50%;
+
+  &:hover {
+    color: var(--accent__color);
+  }
+
+  &:focus {
+    outline: transparent;
+  }
+}
+
+.notVisibleButtonTop {
+  opacity: 0;
+}
+
+.iconButtonTop {
+  height: 1.5rem;
+  width: 1.5rem;
+}

@@ -7,15 +7,17 @@ import InfoAboutCompany from 'components/InfoAboutCompany';
 const NewStartPage = () => {
   return (
     <>
-      <div></div>
       <BlueBg></BlueBg>
       <WhiteBg></WhiteBg>
       <Content>
         <section>
           <h4>
-            Будівельна компанія «АО.-Андезян» лідер у сфері будівництва ангарів,
-            будівництва швидкомонтованих будівель, виготовлення
-            металоконструкцій та малих архітектурних форм (МАФ).
+            <dfn>
+              Будівельна компанія <mark>«АО.-Андезян»</mark>
+            </dfn>
+            лідер у сфері будівництва ангарів, будівництва швидкомонтованих
+            будівель, виготовлення металоконструкцій та малих архітектурних форм
+            (<abbr>МАФ</abbr>).
           </h4>
           <ImageWraper>
             <Img
@@ -25,24 +27,35 @@ const NewStartPage = () => {
             <div
               style={{
                 display: 'flex',
-                justifyContent: 'space-around',
+                justifyContent: 'space-evenly',
                 flexDirection: 'column',
               }}
             >
               <div>
+                <div>Телефон:</div>
                 <a
-                  style={{ textDecoration: 'none', color: '#1f5156' }}
+                  style={{
+                    textDecoration: 'none',
+                    color: '#1f5156',
+                    fontSize: 14,
+                  }}
                   href="tel:+380675909988"
                 >
-                  Телефон: +38 067 590 99 88
+                  +38 067 590 99 88
                 </a>
               </div>
               <div>
+                <div>Пошта:</div>
+
                 <a
-                  style={{ textDecoration: 'none', color: '#1f5156' }}
+                  style={{
+                    textDecoration: 'none',
+                    color: '#1f5156',
+                    fontSize: 14,
+                  }}
                   href="mailto: aoandezyan@gmail.com"
                 >
-                  Пошта: aoandezyan@gmail.com
+                  aoandezyan@gmail.com
                 </a>
               </div>
             </div>

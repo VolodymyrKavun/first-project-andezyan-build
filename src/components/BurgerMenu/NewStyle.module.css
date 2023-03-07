@@ -1,6 +1,6 @@
 #menu {
   display: block;
-  position: absolute;
+  position: fixed;
   right: 100px;
 }
 #menu nav {
@@ -26,7 +26,7 @@
   color: #000;
 }
 #menu li:hover {
-  background-color: #f00;
+  background-color: #1f5156;
 }
 #menu li a {
   display: block;
@@ -60,7 +60,7 @@
   width: 33px;
   height: 4px;
   position: absolute;
-  background: #cdcdcd;
+  background: #faea10;
   border-radius: 3px;
   z-index: 1;
   top: 20px;
@@ -73,7 +73,7 @@
   width: 33px;
   height: 4px;
   position: relative;
-  background: #cdcdcd;
+  background: #faea10;
   border-radius: 3px;
   z-index: 1;
   top: -11px;
@@ -86,7 +86,7 @@
   width: 33px;
   height: 4px;
   position: relative;
-  background: #cdcdcd;
+  background: #faea10;
   border-radius: 3px;
   z-index: 1;
   top: 7px;

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-import imagesGalery from 'data/imagesGalery/imagesGalery';
+import imagesGalery from 'data/imagesGalery';
 import {
   ImageButton,
   ImageSrc,

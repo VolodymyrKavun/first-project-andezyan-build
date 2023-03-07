@@ -1,0 +1,83 @@
+.wrapperStartP {
+  position: relative;
+  // text-align: center;
+  color: white;
+  background-image: url('../../images/hight_angar_skeleton.JPEG');
+  background-size: cover;
+  padding-top: 50px;
+  // height: calc(100vh - 29px);
+  height: 100vh;
+}
+
+.imageWrapperStartP {
+  position: absolute;
+  width: 100%;
+}
+
+.mainImageStartP {
+  position: absolute;
+  width: 100%;
+}
+
+.logoStartP {
+  position: absolute;
+}
+
+// .textStartP {
+//   position: absolute;
+//   top: 40%;
+//   left: 16px;
+//   font-size: 28px;
+//   width: 50%;
+// }
+
+.titleStartP {
+  font-size: x-large;
+  color: var(--accent__color);
+}
+
+// .subtitleStartP {
+//   font-size: large;
+//   color: var(--second__color);
+// }
+
+.logoStartP {
+  @media screen and (max-width: 768px) {
+    filter: drop-shadow(8px 8px 4px var(--accent__color));
+  }
+  // background-color: #1f5156;
+  // filter: drop-shadow(8px 8px 4px #faea10);
+  height: 200px;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .wrapperStartP {
+    position: relative;
+    // text-align: center;
+    color: white;
+    background-image: url('../../images/belaya_service_auto_skeleton.JPEG');
+    background-size: cover;
+    padding-top: 50px;
+    // height: calc(100vh - 29px);
+    height: 100vh;
+  }
+
+  .titleStartP {
+    font-size: x-large;
+    color: var(--dark-color);
+    // position: absolute;
+    // top: 8%;
+    // left: 24%;
+  }
+
+  .subtitleStartP {
+    font-size: large;
+    color: var(--dark-color);
+    position: absolute;
+    top: 16%;
+    left: 4%;
+  }
+}

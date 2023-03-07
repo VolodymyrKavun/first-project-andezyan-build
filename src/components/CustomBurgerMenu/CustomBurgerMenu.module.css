@@ -1,0 +1,56 @@
+:root {
+  --yelow-color: #faea10;
+  --green-color: #1f5156;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+  position: fixed;
+
+  z-index: 50;
+}
+
+main {
+  padding: 50px;
+}
+
+p {
+  margin: 20px;
+}
+
+.burgerBtn {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  position: relative;
+  background-color: var(--yelow-color);
+  cursor: pointer;
+}
+
+.burgerBtn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 30px;
+  background-color: black;
+  height: 2px;
+}
+
+.burgerBtn span {
+  position: absolute;
+  top: 9px;
+  width: 30px;
+  background-color: black;
+  height: 2px;
+}
+
+.burgerBtn::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 30px;
+  background-color: black;
+  height: 2px;
+}

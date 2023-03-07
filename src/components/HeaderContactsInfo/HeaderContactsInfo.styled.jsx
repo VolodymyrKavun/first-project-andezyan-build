@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ContactLink = styled.a`
-  margin-right: 20px;
+  /* margin-right: 20px; */
   text-decoration: none;
   font-family: inherit;
   font-weight: 500;

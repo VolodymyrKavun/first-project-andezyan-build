@@ -12,7 +12,7 @@ export const ContainerList = styled.div`
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-image: url('https://stroy-angar.com.ua/m/images/vishnovoe20/b7.jpg');
+  /* background-image: url('https://stroy-angar.com.ua/m/images/vishnovoe20/b7.jpg'); */
   background-size: cover;
 `;
 
