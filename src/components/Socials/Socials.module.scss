@@ -2,9 +2,7 @@
   position: absolute;
   top: 24%;
   left: 0;
-  // bottom: 0;
   width: 100%;
-  // background-color: green;
 }
 
 .socialList {
@@ -14,9 +12,9 @@
 }
 
 .socialItem {
-  color: orange;
+  color: var(--black);
   transition-duration: 500ms;
-  background-color: var(--backdrop__color);
+  background-color: #f3b94e;
   width: 44px;
   height: 44px;
   border-radius: 50%;

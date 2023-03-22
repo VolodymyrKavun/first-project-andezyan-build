@@ -1,21 +1,21 @@
 import React from 'react';
 
-import styles from './Socials.module.scss';
+import css from './Socials.module.scss';
 import { socialsData } from '../../data/socials.data';
 
 const Socials = () => {
   return (
     <>
-      <div className={styles.socialWrapper}>
-        <ul className={styles.socialList}>
-          {socialsData.map((socialItems, idx) => (
-            <li key={idx} className={styles.socialItem}>
+      <div className={css.socialWrapper}>
+        <ul className={css.socialList}>
+          {socialsData.map(socialItems => (
+            <li key={socialItems.id} className={css.socialItem}>
               <a
                 href={socialItems.path}
                 target={'_blanc'}
-                className={styles.socialLink}
+                className={css.socialLink}
               >
-                {socialItems.icon}
+                <span>{socialItems.icon}</span>
               </a>
             </li>
           ))}

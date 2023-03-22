@@ -1,6 +1,8 @@
+import { v4 as uuidv4 } from 'uuid';
+
 export const navData = [
   {
-    // id: Math.random(),
+    id: uuidv4(),
     path: '/',
     title: 'Головна',
   },
@@ -10,12 +12,17 @@ export const navData = [
   //   title: 'Practic',
   // },
   {
-    // id: Math.random(),
+    id: uuidv4(),
     path: '/gallery',
     title: 'Gallery',
   },
   {
-    // id: Math.random(),
+    id: uuidv4(),
+    path: '/video',
+    title: 'Video',
+  },
+  {
+    id: uuidv4(),
     path: '/contacts',
     title: 'Contacts',
   },

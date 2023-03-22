@@ -1,100 +1,46 @@
-const imagesGalery = [
+import { v4 as uuidv4 } from 'uuid';
+
+// import belaya_sto_oksana from '../images/belaya_sto_oksana.JPEG';
+import belaya_sto_oksana_min from '../images/angars/belaya_sto_oksana_min.jpg';
+import house_front_finnish_04 from '../images/houses/house_front_finnish_04.jpg';
+import beton_vishneve_01 from '../images/beton/beton_vishneve_01.jpg';
+import shop_maf_grey from '../images/shops/shop_maf_grey.jpg';
+import asphalt_kopilov_front from '../images/asphalt/asphalt_kopilov_front.jpg';
+
+export const imagesGalery = [
   {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/avto_servis17/IMG_5294-13-03-17-10-24.jpeg',
-    title: 'Автосервіс Біла Церква 1',
+    id: uuidv4(),
+    url: belaya_sto_oksana_min,
+    title: 'Ангари',
     width: '40%',
+    group: 'angars',
   },
   {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/2017year/avia_angar/IMG_8864-13-12-17-12-06.jpeg',
-    title: 'Біла Церква Аеродромний',
+    id: uuidv4(),
+    url: house_front_finnish_04,
+    title: 'Будинки',
     width: '30%',
+    group: 'houses',
   },
   {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/vishnovoe20/b7.jpg',
-    title: 'Склад А класа',
+    id: uuidv4(),
+    url: beton_vishneve_01,
+    title: 'Бетонні роботи',
     width: '30%',
+    group: 'beton',
   },
   {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/odessa20/5.jpg',
-    title: 'Накриття А класа',
+    id: uuidv4(),
+    url: shop_maf_grey,
+    title: 'Магазини',
     width: '30%',
+    group: 'shops',
   },
   {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/vishnovoe20/a6.jpg',
-    title: 'Склад А класа Фасад',
+    id: uuidv4(),
+    url: asphalt_kopilov_front,
+    title: 'Асфальтні роботи',
     width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/vishnovoe20/b1.jpg',
-    title: 'Склад А класа 2 поверх',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/vishnovoe20/b4.jpg',
-    title: 'Склад А класа 1 поверх',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/m/images/vishnovoe20/c1.jpg',
-    title: 'Склад А класа в середині 1',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/vishnovoe20/c6.jpg',
-    title: 'Склад А класа в середині 2',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/avto_servis17/IMG_4483-13-03-17-10-24.jpeg',
-    title: 'Автосервіс Біла Церква початок',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/avto_servis17/IMG_5276-13-03-17-10-24.jpeg',
-    title: 'Автосервіс Біла Церква закінчення',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/avto_servis17/IMG_5286-13-03-17-10-24.jpeg',
-    title: 'Автосервіс Біла Церква в середині',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/avto_servis17/IMG_5446-13-03-17-10-24.jpeg',
-    title: 'Автосервіс Біла Церква після',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/2017year/angar_kiev/IMG_8586-13-12-17-12-09.jpeg',
-    title: 'Київ 4000кв.м',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/2017year/angar_kiev/IMG_8592-13-12-17-12-09.jpeg',
-    title: 'Київ 4000кв.м Фасад',
-    width: '30%',
-  },
-  {
-    // id: Math.random(),
-    url: 'https://stroy-angar.com.ua/images/2017year/korovnik/IMG_0030.JPG',
-    title: 'Хмельницька область с.Волиця (корівник)',
-    width: '30%',
+    group: 'asphalt',
   },
 ];
-
-export default imagesGalery;

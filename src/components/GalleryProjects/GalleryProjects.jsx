@@ -1,39 +1,39 @@
 import React from 'react';
+import { Outlet, NavLink, useLocation } from 'react-router-dom';
+import Image from 'components/Image';
 
-import imagesGalery from 'data/imagesGalery';
+import { imagesGalery } from 'data/imagesGalery';
 
-import {
-  ContainerList,
-  MovieCardItem,
-  MovieImage,
-  MovieListUl,
-  MovieTitle,
-  LinkToProject,
-} from './GalleryProjects.styled';
-import { useLocation } from 'react-router-dom';
+import css from './GalleryProjects.module.scss';
 
 const GalleryProjects = () => {
   const location = useLocation();
 
   return (
     <>
-      <ContainerList>
-        <MovieListUl>
+      <div className={css.wrapperGallery}>
+        <ul className={css.listGallery}>
           {imagesGalery.map(el => {
             return (
-              <MovieCardItem key={el.title}>
-                <LinkToProject
-                  to={`/data/${el.title}`}
+              <li className={css.itemGallery} key={el.id}>
+                <NavLink
+                  className={css.linkGallery}
+                  to={`/gallery/${el.group}`}
                   state={{ from: location }}
                 >
-                  <MovieImage src={el.url} alt={el.title} />
-                  <MovieTitle>{el.title}</MovieTitle>
-                </LinkToProject>
-              </MovieCardItem>
+                  <Image
+                    className={css.imgGallery}
+                    src={el.url}
+                    alt={el.title}
+                  />
+                  <h2 className={css.titleGallery}>{el.title}</h2>
+                </NavLink>
+              </li>
             );
           })}
-        </MovieListUl>
-      </ContainerList>
+        </ul>
+      </div>
+      <Outlet />
     </>
   );
 };

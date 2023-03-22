@@ -1,0 +1,25 @@
+.wrapperVideo {
+  padding-top: 90px;
+  width: 100%;
+  height: 350px;
+  // height: 100vh;
+}
+
+.listVideo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.itemVideo {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.linkVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

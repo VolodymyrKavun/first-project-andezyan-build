@@ -15,6 +15,7 @@ const Image = ({ src, alt, className, width, height }) => {
         className={className}
         width={width}
         height={height}
+        loading="lazy"
       />
     </>
   );

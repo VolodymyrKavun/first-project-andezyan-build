@@ -17,13 +17,13 @@
   align-items: center;
   padding: 4px;
   background-color: transparent;
-  color: var(--accent__color);
+  color: var(--backdrop__color);
   border: none;
-  background-color: var(--backdrop__color);
+  // background-color: var(--backdrop__color);
   border-radius: 50%;
 
   &:hover {
-    color: var(--accent__color);
+    color: var(--dark-color);
   }
 
   &:focus {

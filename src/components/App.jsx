@@ -8,6 +8,10 @@ const Home = lazy(() => import('../page/Home'));
 const GalleryProjects = lazy(() => import('./GalleryProjects'));
 // const Practic = lazy(() => import('../page/Practic'));
 const Contacts = lazy(() => import('../page/Contacts'));
+const NotFound = lazy(() => import('../page/NotFound'));
+
+const InfoObject = lazy(() => import('../components/InfoObject'));
+const Video = lazy(() => import('../page/Video'));
 
 const App = () => {
   return (
@@ -19,7 +23,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           {/* <Route path="/practic" element={<Practic />} /> */}
           <Route path="/gallery" element={<GalleryProjects />} />
+          <Route path="/gallery/:group" element={<InfoObject />} />
+          <Route path="/video" element={<Video />} />
+
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
     </>

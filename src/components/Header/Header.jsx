@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import Navbar from 'components/Navbar';
 import ButtonTop from 'components/button-top';
