@@ -55,12 +55,12 @@ const Video = () => {
             <li className={css.itemGallery} key={el.id}>
               <iframe
                 className={css.imgGallery}
-                width={el.width}
-                height={el.height}
+                width="656"
+                height="369"
                 src={el.src}
                 title={el.title}
-                frameBorder={el.frameborder}
-                allow={el.allow}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />
               <p className={css.titleGallery}>{el.description}</p>

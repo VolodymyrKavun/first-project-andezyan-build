@@ -30,7 +30,7 @@ const Navbar = () => {
             />
           </NavLink>
 
-          <h1 className={css.titleStartP}>АО-Андезян</h1>
+          <h1 className={css.titleStartP}>ОА-Андезян</h1>
           <ul
             className={
               nav ? [css.menuNav] : [css.menuNav, css.activeNav].join(' ')

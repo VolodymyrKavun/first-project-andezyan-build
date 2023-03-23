@@ -11,7 +11,7 @@ const Contacts = lazy(() => import('../page/Contacts'));
 const NotFound = lazy(() => import('../page/NotFound'));
 
 const InfoObject = lazy(() => import('../components/InfoObject'));
-const Video = lazy(() => import('../page/Video'));
+const Video = lazy(() => import('./VideoPage'));
 
 const App = () => {
   return (

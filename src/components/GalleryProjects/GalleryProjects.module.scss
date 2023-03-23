@@ -29,6 +29,9 @@
   border-radius: 8px;
   display: inline-block;
   display: table-caption;
+  // background-color: #000;
+  position: relative;
+
   &:hover {
     cursor: pointer;
     -webkit-transform: scale(1.03);
@@ -38,11 +41,15 @@
 }
 
 .titleGallery {
-  font-size: 1em;
+  font-size: 3em;
   font-weight: 700;
   margin: 0;
   text-align: center;
-  color: black;
+  color: #ffdd40;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .imgGallery {
@@ -53,6 +60,13 @@
   display: block;
   border-radius: 8px;
   object-fit: cover;
+
+  // opacity: 0.6;
+  // filter: brightness(40%)
+}
+
+.darkness {
+  filter: brightness(40%);
 }
 
 .linkGallery {

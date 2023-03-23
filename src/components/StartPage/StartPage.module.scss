@@ -1,11 +1,15 @@
 .wrapperStartP {
   position: relative;
-  // text-align: center;
   color: white;
-  background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
+  // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
+  background-image: url('../../images/main_photo.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
   background-size: cover;
   padding-top: 50px;
   // height: calc(100vh - 29px);
+  padding-top: 80px;
   height: 100vh;
 }
 
@@ -56,11 +60,12 @@
 @media (max-width: 768px) {
   .wrapperStartP {
     position: relative;
-    // text-align: center;
     color: white;
-    background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
+    // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
+    background-image: url('../../images/main_photo.jpg');
     background-size: cover;
-    padding-top: 50px;
+    background-position: center;
+    padding-top: 80px;
     // height: calc(100vh - 29px);
     height: 100vh;
   }

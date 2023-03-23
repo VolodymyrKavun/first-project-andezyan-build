@@ -22,7 +22,7 @@ const GalleryProjects = () => {
                   state={{ from: location }}
                 >
                   <Image
-                    className={css.imgGallery}
+                    className={css.imgGallery + ' ' + css.darkness}
                     src={el.url}
                     alt={el.title}
                   />
