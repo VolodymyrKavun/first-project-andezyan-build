@@ -84,7 +84,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_rokitne,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -93,7 +93,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_sto_oksana_skeleton,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -101,7 +101,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_sto_oksana_min,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -109,7 +109,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_ATB_kyiv,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -117,7 +117,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_gatne_skeleton,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -125,7 +125,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_green_angar,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -133,7 +133,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: buzova_angar,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -141,7 +141,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: cover_10000m2,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -149,7 +149,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: helicopter,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -157,7 +157,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: hight_angar_skeleton,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -165,7 +165,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: high_angar,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -173,7 +173,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: logistic_center_inside_vishneve_01,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -181,7 +181,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: logistic_center_inside_vishneve_02,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -189,7 +189,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: minimax_skeleton_front,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -197,7 +197,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: service_minimax_front,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -205,7 +205,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: np_reconstruction_before,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -213,7 +213,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: np_reconstruction_after,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -221,7 +221,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: outside_vishneve_logistic_center,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -229,7 +229,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_flying_buzova,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -237,7 +237,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: second_floor_500m2,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -245,7 +245,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vinitsa_flying_skeleton,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -253,7 +253,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vinitsa_flying_finish,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -261,7 +261,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_front_logistic_01,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -269,7 +269,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_front,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -277,7 +277,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_inside_roofing,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -285,7 +285,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_second_floor,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -293,7 +293,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_skeleton,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -301,7 +301,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_ofice_granite,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -309,7 +309,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_ofice_granite_back,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -317,7 +317,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: white_vushgorod,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -325,7 +325,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: gatne_inside,
-    title: '',
+    title: 'Ангар',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -336,7 +336,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house_finnish_01,
-    title: 'Фінський будинок_01',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
@@ -344,7 +344,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house_finnish_02,
-    title: 'Фінський будинок_02',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
@@ -352,7 +352,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house,
-    title: 'Фінський будинок_02',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
@@ -360,7 +360,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house_finnish_03,
-    title: 'Фінський будинок_02',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
@@ -368,7 +368,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house_finnish_05,
-    title: 'Фінський будинок_02',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
@@ -376,7 +376,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: house_front_finnish_04,
-    title: 'Фінський будинок_02',
+    title: 'Фінський будинок',
     width: '30%',
     group: 'houses',
     description: 'с. Забіря, будинок в лісі',
