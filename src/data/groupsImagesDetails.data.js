@@ -84,7 +84,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_rokitne,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -93,7 +93,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_sto_oksana_skeleton,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -101,7 +101,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_sto_oksana_min,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -109,7 +109,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_ATB_kyiv,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -117,7 +117,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_gatne_skeleton,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -125,7 +125,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: belaya_green_angar,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -133,7 +133,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: buzova_angar,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -141,7 +141,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: cover_10000m2,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -149,7 +149,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: helicopter,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -157,7 +157,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: hight_angar_skeleton,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -165,7 +165,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: high_angar,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -173,7 +173,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: logistic_center_inside_vishneve_01,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -181,7 +181,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: logistic_center_inside_vishneve_02,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -189,7 +189,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: minimax_skeleton_front,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -197,7 +197,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: service_minimax_front,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -205,7 +205,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: np_reconstruction_before,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -213,7 +213,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: np_reconstruction_after,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -221,7 +221,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: outside_vishneve_logistic_center,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -229,7 +229,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: angar_flying_buzova,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -237,7 +237,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: second_floor_500m2,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -245,7 +245,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vinitsa_flying_skeleton,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -253,7 +253,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vinitsa_flying_finish,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -261,7 +261,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_front_logistic_01,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -269,7 +269,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_front,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -277,7 +277,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_inside_roofing,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -285,7 +285,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_second_floor,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -293,7 +293,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_logistic_skeleton,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -301,7 +301,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_ofice_granite,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -309,7 +309,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: vishneve_ofice_granite_back,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -317,7 +317,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: white_vushgorod,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -325,7 +325,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: gatne_inside,
-    title: 'Мийка для СГТ',
+    title: '',
     width: '30%',
     group: 'angars',
     description: 'с. Рокитне, мийка для сільськогосподарської техніки',
@@ -446,7 +446,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: shops_gatne_threes,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -454,7 +454,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: fastov_inside_second_floor,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -462,7 +462,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: fastov_market,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -470,7 +470,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: shop_terezino,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -478,7 +478,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: shop_wooden,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -486,7 +486,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: white_room,
-    title: 'МАФи бежеві',
+    title: 'МАФи',
     width: '30%',
     group: 'shops',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -497,7 +497,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: asphalt_kopilov,
-    title: 'МАФи бежеві',
+    title: 'Асфальт',
     width: '30%',
     group: 'asphalt',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -505,7 +505,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: asphalt_kopilov_front,
-    title: 'МАФи бежеві',
+    title: 'Асфальт',
     width: '30%',
     group: 'asphalt',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -513,7 +513,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: asphalt_kopilov_01,
-    title: 'МАФи бежеві',
+    title: 'Асфальт',
     width: '30%',
     group: 'asphalt',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
@@ -521,7 +521,7 @@ export const typeData = [
   {
     id: uuidv4(),
     url: kyiv_front_second_floor,
-    title: 'МАФи бежеві',
+    title: 'Асфальт',
     width: '30%',
     group: 'asphalt',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
