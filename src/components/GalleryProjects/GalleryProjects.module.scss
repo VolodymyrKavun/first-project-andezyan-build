@@ -11,6 +11,9 @@
   justify-content: center;
   background-size: cover;
   padding-top: 90px;
+  // background: linear-gradient(to right, #e9d362, #333333);
+  // background: linear-gradient(to right, #3c3b3f, #605c3c);
+  background: linear-gradient(#3e5151, #decba4);
 }
 
 .listGallery {
@@ -72,7 +75,8 @@
   font-weight: 500;
   margin: 0;
   text-decoration: none;
-  color: #1f5156;
+  // color: #1f5156;
+  color: #e9d362;
   &:hover {
     color: #ffdd40;
   }

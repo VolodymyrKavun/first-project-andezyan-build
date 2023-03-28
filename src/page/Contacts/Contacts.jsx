@@ -1,12 +1,16 @@
 import React from 'react';
-import Socials from 'components/Socials/Socials';
+// import Socials from 'components/Socials/Socials';
 import InfoAboutCompany from 'components/InfoAboutCompany';
+
+import css from './Contacts.module.scss';
 
 const Contacts = () => {
   return (
     <>
-      <Socials />
-      <InfoAboutCompany />
+      <div className={css.wrapperContacts}>
+        {/* <Socials /> */}
+        <InfoAboutCompany />
+      </div>
     </>
   );
 };

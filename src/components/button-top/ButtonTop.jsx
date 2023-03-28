@@ -34,6 +34,7 @@ const ButtonTop = () => {
     <div className={styles.wrpaperButtonTop}>
       <button
         type="button"
+        aria-label="To top"
         onClick={scrollToTop}
         className={
           isVisible ? styles.visibleButtonTop : styles.notVisibleButtonTop

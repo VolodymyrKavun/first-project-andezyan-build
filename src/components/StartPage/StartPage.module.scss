@@ -2,13 +2,13 @@
   position: relative;
   color: white;
   // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
-  background-image: url('../../images/main_photo.jpg');
+  background-image: linear-gradient(#3c3b3f, #605c3c),
+    url('../../images/main_photo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   background-size: cover;
-  padding-top: 50px;
-  // height: calc(100vh - 29px);
+  width: 100%;
   padding-top: 80px;
   height: 100vh;
 }
@@ -27,23 +27,10 @@
   position: absolute;
 }
 
-// .textStartP {
-//   position: absolute;
-//   top: 40%;
-//   left: 16px;
-//   font-size: 28px;
-//   width: 50%;
-// }
-
 .titleStartP {
   font-size: x-large;
   color: var(--accent__color);
 }
-
-// .subtitleStartP {
-//   font-size: large;
-//   color: var(--second__color);
-// }
 
 .logoStartP {
   @media screen and (max-width: 768px) {
@@ -62,7 +49,8 @@
     position: relative;
     color: white;
     // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
-    background-image: url('../../images/main_photo.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+      url('../../images/main_photo.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 80px;
@@ -84,5 +72,8 @@
     position: absolute;
     top: 16%;
     left: 4%;
+    // color: #ff6600;
+    // font-size: 24px;
+    // line-height: 1.4;
   }
 }

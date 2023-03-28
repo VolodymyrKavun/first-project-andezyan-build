@@ -15,7 +15,7 @@ const Socials = () => {
                 target={'_blanc'}
                 className={css.socialLink}
               >
-                <span>{socialItems.icon}</span>
+                <span className={css.socialIcon}>{socialItems.icon}</span>
               </a>
             </li>
           ))}

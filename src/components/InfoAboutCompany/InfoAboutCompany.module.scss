@@ -1,14 +1,41 @@
 .wrapperAboutUs {
-  position: absolute;
-  top: 40%;
-  left: 16px;
+  // position: absolute;
+  // top: 40%;
+  // left: 16px;
+  // background-color: black;
+  // color: white;
+  padding-top: 15px;
 }
 
-.textAboutUs {
+.itemAdressAboutUs {
   margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: var(--white-color);
+  line-height: 1.2;
 }
+
+// .textAboutUs {
+//   margin-bottom: 20px;
+// }
 
 .adressAboutUs {
-  color: #f3b94e;
+  // color: #f3b94e;
+  // color: #64d442;
   margin-bottom: 20px;
+}
+
+.iconAboutUs {
+  color: var(--orange-color);
+  margin-right: 8px;
+}
+
+.orange {
+  color: var(--orange-color);
+  margin-right: 20px;
+}
+
+.hightOrange {
+  color: #bac943;
 }

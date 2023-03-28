@@ -4,6 +4,7 @@ import { BsTelephone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
 // import { SlSocialLinkedin } from 'react-icons/sl';
 // import { TbBrandTelegram } from 'react-icons/tb';
+// import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 
 export const socialsData = [
   {

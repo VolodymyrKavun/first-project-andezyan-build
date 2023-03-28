@@ -25,16 +25,16 @@ Image.propTypes = {
   src: PropTypes.string,
   alt: PropTypes.string,
   className: PropTypes.string,
-  width: PropTypes.number,
-  height: PropTypes.number,
+  width: PropTypes.string,
+  height: PropTypes.string,
 };
 
 Image.defaultProps = {
   src: 'https://stroy-angar.com.ua/images/logo2.png',
   alt: 'Default image',
   className: '',
-  width: 100,
-  height: 100,
+  width: '50px',
+  height: '50px',
 };
 
 export default Image;
