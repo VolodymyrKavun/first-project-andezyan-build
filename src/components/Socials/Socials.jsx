@@ -14,6 +14,7 @@ const Socials = () => {
                 href={socialItems.path}
                 target={'_blanc'}
                 className={css.socialLink}
+                aria-label={socialItems.description}
               >
                 <span className={css.socialIcon}>{socialItems.icon}</span>
               </a>

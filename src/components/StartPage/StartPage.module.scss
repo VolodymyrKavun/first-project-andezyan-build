@@ -1,8 +1,7 @@
 .wrapperStartP {
   position: relative;
   color: white;
-  // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
-  background-image: linear-gradient(#3c3b3f, #605c3c),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
     url('../../images/main_photo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -13,67 +12,21 @@
   height: 100vh;
 }
 
-.imageWrapperStartP {
-  position: absolute;
-  width: 100%;
-}
-
-.mainImageStartP {
-  position: absolute;
-  width: 100%;
-}
-
-.logoStartP {
-  position: absolute;
-}
-
-.titleStartP {
-  font-size: x-large;
-  color: var(--accent__color);
-}
-
-.logoStartP {
-  @media screen and (max-width: 768px) {
-    filter: drop-shadow(8px 8px 4px var(--accent__color));
-  }
-  // background-color: #1f5156;
-  // filter: drop-shadow(8px 8px 4px #faea10);
-  height: 200px;
-  width: 200px;
-  margin: 0;
-  padding: 0;
-}
-
 @media (max-width: 768px) {
   .wrapperStartP {
     position: relative;
     color: white;
-    // background-image: url('../../images/angars/belaya_service_auto_skeleton.JPEG');
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
       url('../../images/main_photo.jpg');
     background-size: cover;
     background-position: center;
     padding-top: 80px;
-    // height: calc(100vh - 29px);
     height: 100vh;
   }
+}
 
-  .titleStartP {
-    font-size: x-large;
-    color: var(--dark-color);
-    // position: absolute;
-    // top: 8%;
-    // left: 24%;
-  }
-
-  .subtitleStartP {
-    font-size: large;
-    color: var(--dark-color);
-    position: absolute;
-    top: 16%;
-    left: 4%;
-    // color: #ff6600;
-    // font-size: 24px;
-    // line-height: 1.4;
-  }
+.socialsWrapper {
+  position: fixed;
+  bottom: 24px;
+  width: 100%;
 }

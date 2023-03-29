@@ -21,7 +21,6 @@
   // color: #ffdd40;
 
   border: none;
-  // background-color: var(--backdrop__color);
   border-radius: 50%;
 
   &:hover {
@@ -39,6 +38,7 @@
 }
 
 .iconButtonTop {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  opacity: 0.8;
 }

@@ -6,24 +6,19 @@ export const navData = [
     path: '/',
     title: 'Головна',
   },
-  // {
-  //   id: Math.random(),
-  //   path: '/practic',
-  //   title: 'Practic',
-  // },
   {
     id: uuidv4(),
     path: '/gallery',
-    title: 'Gallery',
+    title: 'Галерея',
   },
   {
     id: uuidv4(),
     path: '/video',
-    title: 'Video',
+    title: 'Відео',
   },
   {
     id: uuidv4(),
     path: '/contacts',
-    title: 'Contacts',
+    title: 'Контакти',
   },
 ];

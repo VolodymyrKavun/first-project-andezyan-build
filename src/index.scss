@@ -6,7 +6,6 @@
   --accent__color: #fbff00;
   --dark-color: #000000;
   --second__color: rgb(244 255 1 / 84%);
-  --backdrop__color: rgba(17, 17, 17, 0.6);
   --orange-color: #ff6600;
   --white-color: #ffffff;
 }
@@ -105,6 +104,6 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #b1c9d2c7, #916e90);
+  background: linear-gradient(to bottom, #b1c9d2c7, #f29e50);
   border-radius: 6px;
 }

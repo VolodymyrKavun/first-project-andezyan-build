@@ -1,5 +1,6 @@
 import React from 'react';
 import { BsTelephone } from 'react-icons/bs';
+import { FiMapPin } from 'react-icons/fi';
 
 import css from './InfoAboutCompany.module.scss';
 
@@ -7,9 +8,7 @@ const InfoAboutCompany = () => {
   return (
     <div className={css.wrapperAboutUs}>
       <div className={css.textAboutUs}>
-        <span className={css.itemAdressAboutUs + ' ' + css.orange}>
-          Контакти:
-        </span>
+        <span className={css.titleAboutUs + ' ' + css.orange}>Контакти:</span>
         <ul>
           <li className={css.itemAdressAboutUs}>
             <a href="tel:+380675909988" target={'_blanc'}>
@@ -20,7 +19,7 @@ const InfoAboutCompany = () => {
             </a>
           </li>
           <li className={css.itemAdressAboutUs}>
-            <a href="tel:+380675909988" target={'_blanc'}>
+            <a href="tel:+380685909988" target={'_blanc'}>
               <span className={css.iconAboutUs}>
                 <BsTelephone />
               </span>
@@ -28,11 +27,23 @@ const InfoAboutCompany = () => {
             </a>
           </li>
           <li className={css.itemAdressAboutUs}>
-            <a href="tel:+380675909988" target={'_blanc'}>
+            <a href="tel:+380674630606" target={'_blanc'}>
               <span className={css.iconAboutUs}>
                 <BsTelephone />
               </span>
               +380674630606 <span className={css.hightOrange}>Анатолій</span>
+            </a>
+          </li>
+          <li className={css.itemAdressAboutUs}>
+            <span className={css.titleAboutUs + ' ' + css.orange}>
+              Електронна пошта:
+            </span>
+            <a
+              href="mailto:aoandezyan@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              aoandezyan@gmail.com
             </a>
           </li>
         </ul>
@@ -46,6 +57,7 @@ const InfoAboutCompany = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <FiMapPin size={25} color={'green'} />
               09100, Київська обл., Білоцерківський р-н, м. Біла Церква, вулиця
               Богдана Хмельницького, 1/7
             </a>
@@ -57,6 +69,7 @@ const InfoAboutCompany = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <FiMapPin size={25} color={'green'} />
               09800, Київська обл., Білоцерківський р-н, м. Тетіїв, вул.
               Соборна, 68, к. 18
             </a>
@@ -69,13 +82,14 @@ const InfoAboutCompany = () => {
         Понеділок - п'ятниця з 8:00 до 18:00
       </p>
 
-      <p className={css.itemAdressAboutUs + ' ' + css.hightOrange}>
-        Будівельна компанія «ОА. Андезян» лідер у сфері будівництва ангарів,
-        будівництва швидкомонтованих будівель, виготовлення металоконструкцій та
-        малих архітектурних форм (<abbr>МАФ</abbr>).
-      </p>
-
       <ul>
+        <li className={css.itemAdressAboutUs}>
+          <p className={css.hightOrange}>
+            Будівельна компанія «ОА. Андезян» лідер у сфері будівництва ангарів,
+            будівництва швидкомонтованих будівель, виготовлення
+            металоконструкцій та малих архітектурних форм (<abbr>МАФ</abbr>).
+          </p>
+        </li>
         <li className={css.itemAdressAboutUs}>
           <p className={css.textAboutUs}>
             На сьогоднішній день каркасні металоконструкції мають велику

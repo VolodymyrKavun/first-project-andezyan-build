@@ -7,6 +7,15 @@
   padding-top: 15px;
 }
 
+.titleAboutUs {
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  font-size: 20px;
+  color: var(--white-color);
+  line-height: 1.2;
+}
+
 .itemAdressAboutUs {
   margin-bottom: 20px;
   display: inline-block;
@@ -14,6 +23,7 @@
   font-size: 20px;
   color: var(--white-color);
   line-height: 1.2;
+  border-bottom: 1px solid var(--orange-color);
 }
 
 // .textAboutUs {

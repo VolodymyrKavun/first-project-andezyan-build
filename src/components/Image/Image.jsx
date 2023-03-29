@@ -33,8 +33,8 @@ Image.defaultProps = {
   src: 'https://stroy-angar.com.ua/images/logo2.png',
   alt: 'Default image',
   className: '',
-  width: '50px',
-  height: '50px',
+  width: '56px',
+  height: '56px',
 };
 
 export default Image;

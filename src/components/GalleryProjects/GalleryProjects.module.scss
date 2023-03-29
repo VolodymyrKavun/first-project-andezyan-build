@@ -13,7 +13,7 @@
   padding-top: 90px;
   // background: linear-gradient(to right, #e9d362, #333333);
   // background: linear-gradient(to right, #3c3b3f, #605c3c);
-  background: linear-gradient(#3e5151, #decba4);
+  // background: linear-gradient(#3e5151, #decba4);
 }
 
 .listGallery {
@@ -47,7 +47,7 @@
   font-weight: 700;
   margin: 0;
   text-align: center;
-  color: #ffdd40;
+  color: var(--white-color);
   position: absolute;
   top: 50%;
   left: 50%;

@@ -23,9 +23,9 @@ const Navbar = () => {
           >
             <Image
               src=""
-              alt="logo"
-              width="50px"
-              height="50px"
+              alt="Main logo"
+              width="56px"
+              height="56px"
               className={css.headerLogoImageNav}
             />
           </NavLink>
@@ -51,7 +51,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div onClick={() => setNav(!nav)} className={css.mobileBtnNav}>
-            {nav ? <AiOutlineMenu size={25} /> : <AiOutlineClose size={25} />}
+            {nav ? <AiOutlineMenu size={46} /> : <AiOutlineClose size={46} />}
           </div>
         </div>
       </div>
