@@ -11,7 +11,6 @@ const InfoObject = () => {
   const { group } = useParams();
 
   const products = getProductByType(group, typeData);
-  // console.log('🚀 ~ products:', products);
 
   return (
     <>
