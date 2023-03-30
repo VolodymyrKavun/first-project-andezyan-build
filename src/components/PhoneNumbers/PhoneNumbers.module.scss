@@ -1,13 +1,4 @@
-// .wrapperAboutUs {
-// position: absolute;
-// top: 40%;
-// left: 16px;
-// background-color: black;
-// color: white;
-// padding-top: 15px;
-// }
-
-.titleAboutUs {
+.titlePhoneNumber {
   margin-bottom: 16px;
   // display: inline-block;
   // position: relative;
@@ -16,7 +7,11 @@
   // line-height: 1.2;
 }
 
-.itemAdressAboutUs {
+.listPhoneNumber {
+  width: 100%;
+}
+
+.itemAdressPhoneNumber {
   margin-bottom: 16px;
   display: inline-block;
   position: relative;
@@ -24,26 +19,24 @@
   color: var(--white-color);
   line-height: 1.2;
   border-bottom: 1px solid var(--orange-color);
+  width: 100%;
 }
 
-.textAboutUs {
-  text-indent: 16px;
+.linkPhoneNumber {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  gap: 1rem;
 }
 
-.adressAboutUs {
-  // color: #f3b94e;
-  // color: #64d442;
-  margin-bottom: 16px;
-}
-
-.iconAboutUs {
+.iconPhoneNumber {
   color: var(--orange-color);
 }
 
-.orangeAboutUs {
+.orangePhoneNumber {
   color: var(--orange-color);
 }
 
-.hightOrange {
+.hightOrangePhoneNumber {
   color: #bac943;
 }
