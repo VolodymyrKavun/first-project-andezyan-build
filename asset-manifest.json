@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/first-project-andezyan-build/static/css/main.16fa7741.css",
-    "main.js": "/first-project-andezyan-build/static/js/main.d114a2c1.js",
+    "main.js": "/first-project-andezyan-build/static/js/main.53afc6ad.js",
     "static/css/962.bbdb6076.chunk.css": "/first-project-andezyan-build/static/css/962.bbdb6076.chunk.css",
-    "static/js/962.c89a36db.chunk.js": "/first-project-andezyan-build/static/js/962.c89a36db.chunk.js",
+    "static/js/962.d48d2f4e.chunk.js": "/first-project-andezyan-build/static/js/962.d48d2f4e.chunk.js",
     "static/css/990.19159a3d.chunk.css": "/first-project-andezyan-build/static/css/990.19159a3d.chunk.css",
     "static/js/990.8443ea40.chunk.js": "/first-project-andezyan-build/static/js/990.8443ea40.chunk.js",
-    "static/css/379.be10c764.chunk.css": "/first-project-andezyan-build/static/css/379.be10c764.chunk.css",
-    "static/js/379.a4425ecf.chunk.js": "/first-project-andezyan-build/static/js/379.a4425ecf.chunk.js",
+    "static/css/379.9fca1738.chunk.css": "/first-project-andezyan-build/static/css/379.9fca1738.chunk.css",
+    "static/js/379.26c0326b.chunk.js": "/first-project-andezyan-build/static/js/379.26c0326b.chunk.js",
     "static/css/597.a0e75331.chunk.css": "/first-project-andezyan-build/static/css/597.a0e75331.chunk.css",
     "static/js/597.4f4353fd.chunk.js": "/first-project-andezyan-build/static/js/597.4f4353fd.chunk.js",
     "static/js/451.49be806d.chunk.js": "/first-project-andezyan-build/static/js/451.49be806d.chunk.js",
@@ -76,15 +76,16 @@
     "static/media/asphalt_kopilov_01.jpg": "/first-project-andezyan-build/static/media/asphalt_kopilov_01.8177ada26f2c16bf1844.jpg",
     "static/media/asphalt_kopilov_front.jpg": "/first-project-andezyan-build/static/media/asphalt_kopilov_front.97d550e415e4e5e72146.jpg",
     "static/media/white_vushgorod.jpg": "/first-project-andezyan-build/static/media/white_vushgorod.66522352485c22dc2039.jpg",
+    "static/media/design_01.jpg": "/first-project-andezyan-build/static/media/design_01.4d51c796ae0b92e3b67a.jpg",
     "index.html": "/first-project-andezyan-build/index.html",
     "main.16fa7741.css.map": "/first-project-andezyan-build/static/css/main.16fa7741.css.map",
-    "main.d114a2c1.js.map": "/first-project-andezyan-build/static/js/main.d114a2c1.js.map",
+    "main.53afc6ad.js.map": "/first-project-andezyan-build/static/js/main.53afc6ad.js.map",
     "962.bbdb6076.chunk.css.map": "/first-project-andezyan-build/static/css/962.bbdb6076.chunk.css.map",
-    "962.c89a36db.chunk.js.map": "/first-project-andezyan-build/static/js/962.c89a36db.chunk.js.map",
+    "962.d48d2f4e.chunk.js.map": "/first-project-andezyan-build/static/js/962.d48d2f4e.chunk.js.map",
     "990.19159a3d.chunk.css.map": "/first-project-andezyan-build/static/css/990.19159a3d.chunk.css.map",
     "990.8443ea40.chunk.js.map": "/first-project-andezyan-build/static/js/990.8443ea40.chunk.js.map",
-    "379.be10c764.chunk.css.map": "/first-project-andezyan-build/static/css/379.be10c764.chunk.css.map",
-    "379.a4425ecf.chunk.js.map": "/first-project-andezyan-build/static/js/379.a4425ecf.chunk.js.map",
+    "379.9fca1738.chunk.css.map": "/first-project-andezyan-build/static/css/379.9fca1738.chunk.css.map",
+    "379.26c0326b.chunk.js.map": "/first-project-andezyan-build/static/js/379.26c0326b.chunk.js.map",
     "597.a0e75331.chunk.css.map": "/first-project-andezyan-build/static/css/597.a0e75331.chunk.css.map",
     "597.4f4353fd.chunk.js.map": "/first-project-andezyan-build/static/js/597.4f4353fd.chunk.js.map",
     "451.49be806d.chunk.js.map": "/first-project-andezyan-build/static/js/451.49be806d.chunk.js.map",
@@ -97,6 +98,6 @@
   },
   "entrypoints": [
     "static/css/main.16fa7741.css",
-    "static/js/main.d114a2c1.js"
+    "static/js/main.53afc6ad.js"
   ]
 }
