@@ -1,5 +1,4 @@
 import React from 'react';
-import building_design from '../../documents/document_project_kopilov.pdf';
 
 import css from './DesignDocument.module.scss';
 
@@ -8,7 +7,7 @@ const DesignDocument = () => {
     <>
       <div className={css.wrapperDesign}>
         <iframe
-          src={building_design}
+          src="https://drive.google.com/uc?export=view&id=1-yqCBhwyPmL5AQwWvuZvd4wzsnchzFhc"
           name="Проект будівництва"
           title="building_design"
           height="100%"
