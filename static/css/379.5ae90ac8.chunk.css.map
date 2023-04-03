@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/379.5ae90ac8.chunk.css","mappings":"AAAA,qCAEE,0CAEA,aAHA,uBAEA,UACA","sources":["components/DesignDocument/DesignDocument.module.scss"],"sourcesContent":[".wrapperDesign {\n  padding: 70px 16px 16px 16px;\n  background-color: var(--darker_dark_color);\n  width: 100%;\n  height: 100vh;\n}\n"],"names":[],"sourceRoot":""}
