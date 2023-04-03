@@ -2,9 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { BsTelephone } from 'react-icons/bs';
 import { FiMail } from 'react-icons/fi';
-// import { SlSocialLinkedin } from 'react-icons/sl';
 import { TbBrandTelegram } from 'react-icons/tb';
-// import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 import { SiViber } from 'react-icons/si';
 
 export const socialsData = [

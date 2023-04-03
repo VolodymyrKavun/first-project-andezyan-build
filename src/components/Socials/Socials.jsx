@@ -12,7 +12,8 @@ const Socials = () => {
             <li key={socialItems.id} className={css.socialItem}>
               <a
                 href={socialItems.path}
-                target={'_blanc'}
+                target="_blank"
+                rel="noopener noreferrer"
                 className={css.socialLink}
                 aria-label={socialItems.description}
               >
