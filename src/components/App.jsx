@@ -4,11 +4,11 @@ import { lazy, Suspense } from 'react';
 import Loader from 'utils/Loader';
 import Header from './Header';
 
-const Home = lazy(() => import('../page/Home'));
-const GalleryProjects = lazy(() => import('./GalleryProjects'));
-// const Practic = lazy(() => import('../page/Practic'));
-const Contacts = lazy(() => import('../page/Contacts'));
-const NotFound = lazy(() => import('../page/NotFound'));
+const Home = lazy(() => import('page/Home'));
+const Gallery = lazy(() => import('page/Gallery/Gallery'));
+const Designing = lazy(() => import('page/Designing/Designing'));
+const Contacts = lazy(() => import('page/Contacts'));
+const NotFound = lazy(() => import('page/NotFound'));
 
 const InfoObject = lazy(() => import('../components/InfoObject'));
 const Video = lazy(() => import('./VideoPage'));
@@ -21,9 +21,10 @@ const App = () => {
       <Suspense fallback={<Loader />}>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/practic" element={<Practic />} /> */}
-          <Route path="/gallery" element={<GalleryProjects />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/:group" element={<InfoObject />} />
+          <Route path="/designing" element={<Designing />} />
+
           <Route path="/video" element={<Video />} />
 
           <Route path="/contacts" element={<Contacts />} />

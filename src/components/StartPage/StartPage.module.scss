@@ -1,32 +1,22 @@
 .wrapperStartP {
   position: relative;
-  color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+  color: var(--white-color);
+  background-image: linear-gradient(
+      var(--lighter_dark_color),
+      var(--darker_dark_color)
+    ),
     url('../../images/main_photo.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   background-size: cover;
   width: 100%;
-  padding-top: 80px;
+  padding-top: var(--80px);
   height: 100vh;
-}
-
-@media (max-width: 768px) {
-  .wrapperStartP {
-    position: relative;
-    color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-      url('../../images/main_photo.jpg');
-    background-size: cover;
-    background-position: center;
-    padding-top: 80px;
-    height: 100vh;
-  }
 }
 
 .socialsWrapper {
   position: fixed;
-  bottom: 24px;
+  bottom: var(--24px);
   width: 100%;
 }

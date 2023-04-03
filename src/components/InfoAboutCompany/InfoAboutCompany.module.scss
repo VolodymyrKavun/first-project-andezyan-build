@@ -1,39 +1,69 @@
-// .wrapperAboutUs {
-// position: absolute;
-// top: 40%;
-// left: 16px;
-// background-color: black;
-// color: white;
-// padding-top: 15px;
-// }
-
 .titleAboutUs {
-  margin-bottom: 16px;
-  // display: inline-block;
-  // position: relative;
-  // font-size: 20px;
-  // color: var(--white-color);
-  // line-height: 1.2;
+  margin-bottom: var(--16px);
 }
 
 .itemAdressAboutUs {
-  margin-bottom: 16px;
+  margin-bottom: var(--16px);
   display: inline-block;
   position: relative;
-  font-size: 20px;
+  font-size: var(--20px);
   color: var(--white-color);
   line-height: 1.2;
   border-bottom: 1px solid var(--orange-color);
 }
 
 .textAboutUs {
-  text-indent: 16px;
+  text-indent: var(--16px);
 }
 
 .adressAboutUs {
-  // color: #f3b94e;
-  // color: #64d442;
-  margin-bottom: 16px;
+  margin-bottom: var(--16px);
+}
+
+.addressLink {
+  //   animation: anime;
+  //   /* имя кейфрейма для анимации */
+  //   animation-duration: 500ms;
+  //   /* длительность анимации */
+  //   animation-iteration-count: infinite;
+  //   /* количество повторений, в данном случае - бесконечно */
+  //   animation-direction: alternate;
+  //   /* проигрывать анимацию в прямом и в обратном порядке */
+  //   animation-timing-function: ease-in;
+  // }
+  // @keyframes anime {
+  //   from {
+  //     transform: scale(1);
+  //   }
+  //   to {
+  //     transform: scale(1.05);
+  //   }
+  // !afteer
+
+  background: linear-gradient(
+    90deg,
+    var(--white-color),
+    var(--lightGreen-color),
+    var(--green-color),
+    var(--green-color),
+    var(--lightGreen-color),
+    var(--white-color)
+  );
+  background-size: 400%;
+  word-spacing: 5px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 3s linear infinite;
+
+  @keyframes animate {
+    0% {
+      background-position: 0%;
+    }
+
+    100% {
+      background-position: 400%;
+    }
+  }
 }
 
 .iconAboutUs {
@@ -45,5 +75,5 @@
 }
 
 .hightOrange {
-  color: #bac943;
+  color: var(--lightGreen-color);
 }

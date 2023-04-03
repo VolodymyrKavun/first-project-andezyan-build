@@ -17,7 +17,7 @@ const Video = () => {
                 height="100%"
                 src={el.src}
                 title={el.title}
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowFullScreen
               />

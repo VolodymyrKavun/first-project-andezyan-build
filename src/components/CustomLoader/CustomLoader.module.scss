@@ -1,10 +1,10 @@
 .loader {
   position: absolute;
-  top: 35%;
+  top: 50%;
   left: 50%;
-  width: 6em;
-  height: 6em;
-  font-size: 10px;
+  width: var(--96px);
+  height: var(--96px);
+  font-size: var(--8px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,8 +50,8 @@
   top: -0.5em;
   right: -0.5em;
   content: '';
-  width: 1em;
-  height: 1em;
+  width: var(--16px);
+  height: var(--16px);
   background-color: currentColor;
   border-radius: 50%;
   box-shadow: 0 0 2em, 0 0 4em, 0 0 6em, 0 0 8em, 0 0 10em,

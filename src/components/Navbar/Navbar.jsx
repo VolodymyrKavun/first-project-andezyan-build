@@ -21,13 +21,7 @@ const Navbar = () => {
             to={`/`}
             state={{ from: location }}
           >
-            <Image
-              src=""
-              alt="Main logo"
-              width="56px"
-              height="56px"
-              className={css.headerLogoImageNav}
-            />
+            <Image src="" alt="Main logo" width="56px" height="56px" />
           </NavLink>
 
           <h1 className={css.titleStartP}>ОА-Андезян</h1>
@@ -51,7 +45,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div onClick={() => setNav(!nav)} className={css.mobileBtnNav}>
-            {nav ? <AiOutlineMenu size={46} /> : <AiOutlineClose size={46} />}
+            {nav ? <AiOutlineMenu size={48} /> : <AiOutlineClose size={48} />}
           </div>
         </div>
       </div>

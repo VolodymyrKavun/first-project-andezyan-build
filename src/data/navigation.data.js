@@ -13,6 +13,11 @@ export const navData = [
   },
   {
     id: uuidv4(),
+    path: '/designing',
+    title: 'Проектування',
+  },
+  {
+    id: uuidv4(),
     path: '/video',
     title: 'Відео',
   },

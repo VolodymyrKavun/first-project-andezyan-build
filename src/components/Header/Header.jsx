@@ -6,9 +6,7 @@ import ButtonTop from 'components/button-top';
 const Header = () => {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <ButtonTop />
     </>
   );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import css from './CustomLoader.module.css';
+import css from './CustomLoader.module.scss';
 
 const CustomLoader = () => {
   return (

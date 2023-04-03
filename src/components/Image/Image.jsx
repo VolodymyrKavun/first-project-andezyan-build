@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import logo from '../../images/logo2.png';
 
-const Image = ({ src, alt, className, width, height }) => {
+const Image = ({ src, alt, className, width, height, onClick }) => {
   if (!src) {
     src = logo;
   }
@@ -15,6 +15,7 @@ const Image = ({ src, alt, className, width, height }) => {
         className={className}
         width={width}
         height={height}
+        onClick={onClick}
         loading="lazy"
       />
     </>
@@ -27,6 +28,7 @@ Image.propTypes = {
   className: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 Image.defaultProps = {

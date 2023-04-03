@@ -68,7 +68,11 @@ import white_room from '../images/shops/white_room.JPEG';
 import asphalt_kopilov from '../images/asphalt/asphalt_kopilov.jpg';
 import asphalt_kopilov_front from '../images/asphalt/asphalt_kopilov_front.jpg';
 import asphalt_kopilov_01 from '../images/asphalt/asphalt_kopilov_01.jpg';
-import kyiv_front_second_floor from '../images/asphalt/kyiv_front_second_floor.JPEG';
+
+// Certificates
+
+import certificate_lobas from '../images/certificates/certificate_lobas.jpg';
+import qualification_lobas from '../images/certificates/qualification_lobas.jpg';
 
 export const typeData = [
   // --- Angars
@@ -518,12 +522,23 @@ export const typeData = [
     group: 'asphalt',
     description: 'с. Гатне, на виїзді траса Київ - Одеса',
   },
+
+  // Certificate
+
   {
     id: uuidv4(),
-    url: kyiv_front_second_floor,
-    title: 'Асфальт',
+    url: certificate_lobas,
+    title: 'Сертифікат',
     width: '30%',
-    group: 'asphalt',
-    description: 'с. Гатне, на виїзді траса Київ - Одеса',
+    group: 'certificate',
+    description: 'Сертифікат',
+  },
+  {
+    id: uuidv4(),
+    url: qualification_lobas,
+    title: 'Свідоцтво',
+    width: '30%',
+    group: 'certificate',
+    description: 'Сертифікат',
   },
 ];

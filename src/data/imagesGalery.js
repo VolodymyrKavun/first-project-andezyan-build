@@ -1,11 +1,11 @@
 import { v4 as uuidv4 } from 'uuid';
 
-// import belaya_sto_oksana from '../images/belaya_sto_oksana.JPEG';
 import belaya_sto_oksana_min from '../images/angars/belaya_sto_oksana_min.jpg';
 import house_front_finnish_04 from '../images/houses/house_front_finnish_04.jpg';
 import beton_vishneve_01 from '../images/beton/beton_vishneve_01.jpg';
 import shop_maf_grey from '../images/shops/shop_maf_grey.jpg';
 import asphalt_kopilov_front from '../images/asphalt/asphalt_kopilov_front.jpg';
+import certificate_lobas from '../images/certificates/certificate_lobas.jpg';
 
 export const imagesGalery = [
   {
@@ -39,8 +39,15 @@ export const imagesGalery = [
   {
     id: uuidv4(),
     url: asphalt_kopilov_front,
-    title: 'Асфальтні роботи',
+    title: 'Асфальтобетонні роботи',
     width: '30%',
     group: 'asphalt',
+  },
+  {
+    id: uuidv4(),
+    url: certificate_lobas,
+    title: 'Сертифікати',
+    width: '30%',
+    group: 'certificate',
   },
 ];

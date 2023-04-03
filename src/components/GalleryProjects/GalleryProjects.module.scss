@@ -10,10 +10,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   background-size: cover;
-  padding-top: 90px;
-  // background: linear-gradient(to right, #e9d362, #333333);
-  // background: linear-gradient(to right, #3c3b3f, #605c3c);
-  // background: linear-gradient(#3e5151, #decba4);
+  padding-top: var(--80px);
 }
 
 .listGallery {
@@ -27,12 +24,13 @@
   box-shadow: 0 6px 18px rgb(0 0 0 / 10%);
 
   width: 100%;
-  max-width: 360px;
-  margin: 0.5em;
-  border-radius: 8px;
+  max-width: var(--360px);
+  margin: var(--8px);
+  border-radius: var(--8px);
   display: inline-block;
   display: table-caption;
   position: relative;
+  transition-duration: 500ms;
 
   &:hover {
     cursor: pointer;
@@ -43,7 +41,7 @@
 }
 
 .titleGallery {
-  font-size: 3em;
+  font-size: var(--40px);
   font-weight: 700;
   margin: 0;
   text-align: center;
@@ -58,9 +56,9 @@
   padding: 0;
   margin: 0;
   width: 100%;
-  height: 230px;
+  height: var(--240px);
   display: block;
-  border-radius: 8px;
+  border-radius: var(--8px);
   object-fit: cover;
 }
 
@@ -69,13 +67,11 @@
 }
 
 .linkGallery {
-  width: 306px;
-  height: 230px;
-  font-size: 1em;
+  width: var(--360px);
+  height: var(--240px);
+  font-size: var(--16px);
   font-weight: 500;
-  margin: 0;
   text-decoration: none;
-  // color: #1f5156;
   color: #e9d362;
   &:hover {
     color: #ffdd40;

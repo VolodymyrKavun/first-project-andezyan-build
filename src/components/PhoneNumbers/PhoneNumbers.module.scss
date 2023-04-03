@@ -1,10 +1,5 @@
 .titlePhoneNumber {
-  margin-bottom: 16px;
-  // display: inline-block;
-  // position: relative;
-  // font-size: 20px;
-  // color: var(--white-color);
-  // line-height: 1.2;
+  margin-bottom: var(--16px);
 }
 
 .listPhoneNumber {
@@ -12,10 +7,10 @@
 }
 
 .itemAdressPhoneNumber {
-  margin-bottom: 16px;
+  margin-bottom: var(--16px);
   display: inline-block;
   position: relative;
-  font-size: 20px;
+  font-size: var(--20px);
   color: var(--white-color);
   line-height: 1.2;
   border-bottom: 1px solid var(--orange-color);
@@ -26,7 +21,7 @@
   display: flex;
   text-align: center;
   justify-content: flex-start;
-  gap: 1rem;
+  gap: var(--16px);
 }
 
 .iconPhoneNumber {
@@ -38,5 +33,11 @@
 }
 
 .hightOrangePhoneNumber {
-  color: #bac943;
+  color: var(--lightGreen-color);
+}
+
+@media (min-width: 768px) {
+  .listPhoneNumber {
+    width: min-content;
+  }
 }
