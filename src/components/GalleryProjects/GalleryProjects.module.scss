@@ -32,11 +32,20 @@
   position: relative;
   transition-duration: 500ms;
 
-  &:hover {
-    cursor: pointer;
-    -webkit-transform: scale(1.03);
-    transform: scale(1.05);
-    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  // &:hover {
+  //   cursor: pointer;
+  //   -webkit-transform: scale(1.03);
+  //   transform: scale(1.05);
+  //   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+  // }
+
+  @media (min-width: 768px) {
+    &:hover {
+      cursor: pointer;
+      -webkit-transform: scale(1.03);
+      transform: scale(1.05);
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.08);
+    }
   }
 }
 

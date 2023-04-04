@@ -26,9 +26,23 @@ export const numbers = [
   },
   {
     id: uuidv4(),
+    link: 'tel:+380456051228',
+    icon: <BsTelephone />,
+    number: '(045) 605-12-28',
+    name: '',
+  },
+  {
+    id: uuidv4(),
     link: 'mailto:aoandezyan@gmail.com',
     rel: 'noopener noreferrer',
     icon: <FiMail />,
     number: 'aoandezyan@gmail.com',
+  },
+  {
+    id: uuidv4(),
+    link: 'mailto:lotos0712@ukr.net',
+    rel: 'noopener noreferrer',
+    icon: <FiMail />,
+    number: 'lotos0712@ukr.net',
   },
 ];

@@ -2,6 +2,7 @@ import React from 'react';
 
 import css from './DesignDocument.module.scss';
 import styles from '../GalleryProjects/GalleryProjects.module.scss';
+import designing_document from '../../documents/designing_document.pdf';
 
 import templatePhoto from '../../images/designing/design_01.jpg';
 
@@ -11,7 +12,8 @@ const DesignDocument = () => {
       <div className={styles.wrapperGallery}>
         <a
           className={css.linkDesign}
-          href="https://drive.google.com/uc?export=view&id=1-yqCBhwyPmL5AQwWvuZvd4wzsnchzFhc"
+          // href="https://drive.google.com/uc?export=view&id=1-yqCBhwyPmL5AQwWvuZvd4wzsnchzFhc"
+          href={designing_document}
           target="_blank"
           rel="noopener noreferrer"
         >

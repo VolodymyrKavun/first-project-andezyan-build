@@ -3,7 +3,7 @@
   bottom: var(--8px);
   right: var(--8px);
   transition-duration: var(--timing-function-500);
-  z-index: 5;
+  z-index: 1;
 
   &:hover {
     transform: scale(1.3);

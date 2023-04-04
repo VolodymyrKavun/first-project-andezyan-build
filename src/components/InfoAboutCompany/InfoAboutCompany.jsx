@@ -20,7 +20,7 @@ const InfoAboutCompany = () => {
                 <a
                   href="https://goo.gl/maps/zNNVitSysmtxiFwQA"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                 >
                   <FiMapPin size={25} color={'green'} />
                   09100, Київська обл., Білоцерківський р-н, м. Біла Церква,
@@ -36,7 +36,7 @@ const InfoAboutCompany = () => {
                 <a
                   href="https://goo.gl/maps/Ah1rPgk2ksaops49A"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                 >
                   <FiMapPin size={25} color={'green'} />
                   09800, Київська обл., Білоцерківський р-н, м. Тетіїв, вул.

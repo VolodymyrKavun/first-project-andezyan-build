@@ -13,9 +13,11 @@
   height: var(--48px);
   border-radius: 50%;
 
-  &:hover {
-    color: var(--dark-color);
-    transform: scale(1.5);
+  @media (min-width: 768px) {
+    &:hover {
+      color: var(--dark-color);
+      transform: scale(1.5);
+    }
   }
 }
 

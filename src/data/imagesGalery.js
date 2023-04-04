@@ -46,7 +46,7 @@ export const imagesGalery = [
   {
     id: uuidv4(),
     url: certificate_lobas,
-    title: 'Сертифікати',
+    title: 'Проектування',
     width: '30%',
     group: 'certificate',
   },
