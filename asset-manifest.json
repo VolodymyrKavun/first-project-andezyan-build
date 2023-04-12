@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/first-project-andezyan-build/static/css/main.6717ba03.css",
-    "main.js": "/first-project-andezyan-build/static/js/main.6e0c2b0e.js",
+    "main.js": "/first-project-andezyan-build/static/js/main.24660630.js",
     "static/css/962.8d7537fc.chunk.css": "/first-project-andezyan-build/static/css/962.8d7537fc.chunk.css",
     "static/js/962.d48d2f4e.chunk.js": "/first-project-andezyan-build/static/js/962.d48d2f4e.chunk.js",
     "static/css/990.75797815.chunk.css": "/first-project-andezyan-build/static/css/990.75797815.chunk.css",
@@ -9,7 +9,7 @@
     "static/css/379.b06cc8a7.chunk.css": "/first-project-andezyan-build/static/css/379.b06cc8a7.chunk.css",
     "static/js/379.d5a50f72.chunk.js": "/first-project-andezyan-build/static/js/379.d5a50f72.chunk.js",
     "static/css/597.a0e75331.chunk.css": "/first-project-andezyan-build/static/css/597.a0e75331.chunk.css",
-    "static/js/597.1aba99d0.chunk.js": "/first-project-andezyan-build/static/js/597.1aba99d0.chunk.js",
+    "static/js/597.5e2bc0c3.chunk.js": "/first-project-andezyan-build/static/js/597.5e2bc0c3.chunk.js",
     "static/js/451.49be806d.chunk.js": "/first-project-andezyan-build/static/js/451.49be806d.chunk.js",
     "static/css/448.e7bf5ae3.chunk.css": "/first-project-andezyan-build/static/css/448.e7bf5ae3.chunk.css",
     "static/js/448.fa1ae741.chunk.js": "/first-project-andezyan-build/static/js/448.fa1ae741.chunk.js",
@@ -80,7 +80,7 @@
     "static/media/design_01.jpg": "/first-project-andezyan-build/static/media/design_01.4d51c796ae0b92e3b67a.jpg",
     "index.html": "/first-project-andezyan-build/index.html",
     "main.6717ba03.css.map": "/first-project-andezyan-build/static/css/main.6717ba03.css.map",
-    "main.6e0c2b0e.js.map": "/first-project-andezyan-build/static/js/main.6e0c2b0e.js.map",
+    "main.24660630.js.map": "/first-project-andezyan-build/static/js/main.24660630.js.map",
     "962.8d7537fc.chunk.css.map": "/first-project-andezyan-build/static/css/962.8d7537fc.chunk.css.map",
     "962.d48d2f4e.chunk.js.map": "/first-project-andezyan-build/static/js/962.d48d2f4e.chunk.js.map",
     "990.75797815.chunk.css.map": "/first-project-andezyan-build/static/css/990.75797815.chunk.css.map",
@@ -88,7 +88,7 @@
     "379.b06cc8a7.chunk.css.map": "/first-project-andezyan-build/static/css/379.b06cc8a7.chunk.css.map",
     "379.d5a50f72.chunk.js.map": "/first-project-andezyan-build/static/js/379.d5a50f72.chunk.js.map",
     "597.a0e75331.chunk.css.map": "/first-project-andezyan-build/static/css/597.a0e75331.chunk.css.map",
-    "597.1aba99d0.chunk.js.map": "/first-project-andezyan-build/static/js/597.1aba99d0.chunk.js.map",
+    "597.5e2bc0c3.chunk.js.map": "/first-project-andezyan-build/static/js/597.5e2bc0c3.chunk.js.map",
     "451.49be806d.chunk.js.map": "/first-project-andezyan-build/static/js/451.49be806d.chunk.js.map",
     "448.e7bf5ae3.chunk.css.map": "/first-project-andezyan-build/static/css/448.e7bf5ae3.chunk.css.map",
     "448.fa1ae741.chunk.js.map": "/first-project-andezyan-build/static/js/448.fa1ae741.chunk.js.map",
@@ -99,6 +99,6 @@
   },
   "entrypoints": [
     "static/css/main.6717ba03.css",
-    "static/js/main.6e0c2b0e.js"
+    "static/js/main.24660630.js"
   ]
 }
