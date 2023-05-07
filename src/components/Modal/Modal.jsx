@@ -9,7 +9,15 @@ const Modal = ({ clickedImg, setClickedImg }) => {
   return (
     <>
       <div className={css.overlay} onClick={handleClick}>
-        <img src={clickedImg} alt="biggerPicture" className={css.imgModal} />
+        <img
+          src={clickedImg}
+          alt="Збільшена картинка"
+          className={css.imgModal}
+          title="Збільшена картинка"
+          loading="eager"
+          width="100%"
+          height="100%"
+        />
         <button className={css.buttonCloseModal} aria-label="Modal close">
           <AiFillCloseCircle size={48} />
         </button>

@@ -16,6 +16,7 @@ const Socials = () => {
                 rel="noopener noreferrer"
                 className={css.socialLink}
                 aria-label={socialItems.description}
+                title="Посилання на соціальні мережі"
               >
                 <span className={css.socialIcon}>{socialItems.icon}</span>
               </a>

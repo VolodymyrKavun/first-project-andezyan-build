@@ -17,6 +17,7 @@ const Image = ({ src, alt, className, width, height, onClick }) => {
         height={height}
         onClick={onClick}
         loading="lazy"
+        title="ОА Андезян"
       />
     </>
   );

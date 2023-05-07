@@ -6,13 +6,16 @@ import styles from './StartPage.module.scss';
 const StartPage = () => {
   return (
     <>
-      <div className={styles.wrapperStartP}>
-        <section className={styles.textStartP}>
-          <div className={styles.socialsWrapper}>
-            <Socials />
-          </div>
-        </section>
-      </div>
+      {/* <div className={styles.wrapperStartP}> */}
+      <section className={styles.wrapperStartP}>
+        {/* <h1 className={styles.titleStartP}>
+          Будівництво ангарів та складів під ключ в Україні.
+        </h1> */}
+        <div className={styles.socialsWrapper}>
+          <Socials />
+        </div>
+      </section>
+      {/* </div> */}
     </>
   );
 };

@@ -20,6 +20,7 @@ const GalleryProjects = () => {
                   className={css.linkGallery}
                   to={`/gallery/${el.group}`}
                   state={{ from: location }}
+                  title="Вкладена маршрутизація"
                 >
                   <Image
                     className={css.imgGallery + ' ' + css.darkness}

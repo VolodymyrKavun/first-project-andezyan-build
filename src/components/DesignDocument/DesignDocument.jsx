@@ -16,11 +16,16 @@ const DesignDocument = () => {
           href={designing_document}
           target="_blank"
           rel="noopener noreferrer"
+          title="Робочий проект"
         >
           <img
             className={css.imageDesign}
             src={templatePhoto}
             alt="Design template"
+            title="Робочий проект"
+            loading="eager"
+            width="100%"
+            height="100%"
           />
           {/* <h2 className={css.titleDesign}>Відкрити документ</h2> */}
         </a>

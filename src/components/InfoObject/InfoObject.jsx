@@ -30,6 +30,8 @@ const InfoObject = () => {
                   src={item.url}
                   alt={item.title}
                   onClick={() => handleClick(item)}
+                  title="ОА Андезян"
+                  loading="eager"
                 />
 
                 {/* <p className={css.titleGallery}>{item.title}</p>   */}
