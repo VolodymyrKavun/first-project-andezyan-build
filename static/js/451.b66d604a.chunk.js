@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkandezyan_build=self.webpackChunkandezyan_build||[]).push([[451],{3451:function(n,u,e){e.r(u),e.d(u,{default:function(){return t}});e(2791);var d=e(184),t=function(){return(0,d.jsx)("div",{children:"NotFound"})}}}]);
+//# sourceMappingURL=451.b66d604a.chunk.js.map
