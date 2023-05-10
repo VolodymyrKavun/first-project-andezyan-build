@@ -7,7 +7,7 @@ import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
-  <BrowserRouter basename="/first-project-andezyan-build/">
+  <BrowserRouter>
     <HelmetProvider>
       <App />
     </HelmetProvider>
