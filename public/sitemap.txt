@@ -1,11 +1,5 @@
 https://andezyan-build.netlify.app/
 https://andezyan-build.netlify.app/gallery
-https://andezyan-build.netlify.app/gallery/angars
-https://andezyan-build.netlify.app/gallery/houses
-https://andezyan-build.netlify.app/gallery/beton
-https://andezyan-build.netlify.app/gallery/shops
-https://andezyan-build.netlify.app/gallery/asphalt
-https://andezyan-build.netlify.app/gallery/certificate
 https://andezyan-build.netlify.app/designing
 https://andezyan-build.netlify.app/video
 https://andezyan-build.netlify.app/contacts
