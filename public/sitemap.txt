@@ -1,4 +1,4 @@
-https://andezyan-build.netlify.app
+https://andezyan-build.netlify.app/
 https://andezyan-build.netlify.app/gallery
 https://andezyan-build.netlify.app/gallery/angars
 https://andezyan-build.netlify.app/gallery/houses
