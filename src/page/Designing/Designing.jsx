@@ -12,7 +12,7 @@ const Designing = () => {
         description={
           "Проектування будівельних споруд та об'єктів різного призначення та рівня складності у Києві та Україні. Проектування металоконструкцій."
         }
-        // url={'/first-project-andezyan-build/designing'}
+        url={'https://andezyan-build.netlify.app/designing'}
       />
       <DesignDocument />
     </>

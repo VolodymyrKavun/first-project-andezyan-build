@@ -11,7 +11,7 @@ const Gallery = () => {
         description={
           'Технологія будівництва є незамінною для сучасних магазинів, маркетів, автомийок, СТО, складів, автосалонів та будинків з металоконструкцій.'
         }
-        // url={'/first-project-andezyan-build/gallery'}
+        url={'https://andezyan-build.netlify.app/gallery'}
       />
       {/* <Helmet>
         <title>Фотогалерея об'єктів компанії ОА Андезян</title>

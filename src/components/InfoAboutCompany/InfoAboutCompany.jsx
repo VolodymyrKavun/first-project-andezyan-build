@@ -13,7 +13,7 @@ const InfoAboutCompany = () => {
         description={
           'Ангари з металу прямостінні. Ангари під зерно та техніку. Ангари для бізнесу. Складські приміщення для всіх сфер діяльності. Будівлі з металоконструкцій від виробника.'
         }
-        // url={'/first-project-andezyan-build/contacts'}
+        url={'https://andezyan-build.netlify.app/contacts'}
       />
       <div className={css.wrapperAboutUs}>
         <PhoneNumbers />

@@ -13,7 +13,7 @@ const Video = () => {
         description={
           'Компанія займається виготовленням автоматизованих воріт на ангари принцип роботи яких продемонстровано на відео. Фінські будинки також спеціальність компанії'
         }
-        // url={'/first-project-andezyan-build/video'}
+        url={'https://andezyan-build.netlify.app/video'}
       />
       <div className={css.wrapperGallery}>
         <ul className={css.listGallery}>

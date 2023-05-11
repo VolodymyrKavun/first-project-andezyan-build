@@ -7,7 +7,7 @@ const LayoutPages = ({ title, description, url }) => {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
-        {/* <link rel="canonical" href={url} /> */}
+        <link rel="canonical" href={url} />
       </Helmet>
     </>
   );
