@@ -49,11 +49,7 @@ const Navbar = () => {
           </NavLink>
 
           <h1 className={css.titleStartP}>ОА-Андезян</h1>
-          <ul
-            className={
-              nav ? [css.menuNav] : [css.menuNav, css.activeNav].join(' ')
-            }
-          >
+          <ul className={nav ? css.menuNav : css.menuNav + ' ' + css.activeNav}>
             {navData.map(el => (
               <li key={el.id}>
                 <NavLink
